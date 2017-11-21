@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1510758087 source:c:\users\local\desktop\bartuszak\wielomian_aproksymujacy_stopnia_pierwszego\main.cpp
+	<iostream>
+	<vector>
+
+1511269966 source:c:\users\bplos\desktop\wielomian_aproksymujacy_stopnia_pierwszego\main.cpp
+	<cstdlib>
+	<iostream>
+	<iostream>
+	<iomanip>
+	<vector>
+	<fstream>
+
