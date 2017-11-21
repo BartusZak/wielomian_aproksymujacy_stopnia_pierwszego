@@ -7,8 +7,8 @@
 5. Otwieramy program gnuplot wpisujemy polecenia:
 
 # Polecenia gnuplot
-gnuplot> cd 'C:\Users\bplos\Desktop\wielomian_aproksymujacy_stopnia_pierwszego'
-gnuplot> set style line 1 lc rgb '#0060ad' lt 1 lw 2 pt 7 ps 1.5   # --- blue
-gnuplot> set style line 2 lc rgb '#dd181f' lt 1 lw 2 pt 5 ps 1.5   # --- red
-gnuplot> f(x) = 1.94743*x+3.1181
+gnuplot> cd 'C:\Users\bplos\Desktop\wielomian_aproksymujacy_stopnia_pierwszego'  
+gnuplot> set style line 1 lc rgb '#0060ad' lt 1 lw 2 pt 7 ps 1.5   # --- blue  
+gnuplot> set style line 2 lc rgb '#dd181f' lt 1 lw 2 pt 5 ps 1.5   # --- red  
+gnuplot> f(x) = 1.94743*x+3.1181  
 gnuplot> plot 'zadanie.txt' title 'Experiment' with points ls 1, f(x) title 'Theory' w lines ls 2
